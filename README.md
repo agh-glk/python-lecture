@@ -32,3 +32,7 @@ W celu uruchomienia ipython notebooka należy:
 
 Po wykonaniu powyższych czynności w przeglądarce pod adresem http://localhost:8888/ powinien odpowiadać ipython notebook.
 
+
+**Poprawki zauważonych błędów**
+
+Wszelkie erraty mile widziane, proszę zrobić fork + push request.
