@@ -3,7 +3,7 @@ python-lecture
 
 Wykłady z Pythona na AGH w formacie ipython notebook.
 
-Aby uruchomić ipython notebook:
+W celu uruchomienia ipython notebooka należy:
 
 1. Zainstaluj pełny moduł ipython:
 
@@ -17,18 +17,18 @@ Aby uruchomić ipython notebook:
   $ git clone https://github.com/agh-glk/python-lecture.git
   ```
   
-3. Wejdz do katalogu ze wykładem
+3. Wejdz do katalogu ze wykładem:
 
   ```
   $ cd python-lecture
   ```
     
-4. Uruchom notebook
+4. Uruchom notebook:
 
   ```
   $ ipython notebook
   ```
   
 
-W przeglądarce pod adresem http://localhost:8888/ powinien odpowiadać notebook.
+Po wykonaniu powyższych czynności w przeglądarce pod adresem http://localhost:8888/ powinien odpowiadać ipython notebook.
 
