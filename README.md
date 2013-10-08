@@ -1,9 +1,11 @@
 python-lecture
 ==============
 
-Wykłady z Pythona na AGH w formacie ipython notebook.
+Wykłady z Pythona na AGH w formacie IPython Notebook.
 
-W celu uruchomienia ipython notebooka należy:
+### Jak używać?
+
+W celu uruchomienia IPython Notebooka należy:
 
 1. Zainstaluj pełny moduł ipython:
 
@@ -23,16 +25,16 @@ W celu uruchomienia ipython notebooka należy:
   $ cd python-lecture
   ```
     
-4. Uruchom notebook:
+4. Uruchom Notebook:
 
   ```
   $ ipython notebook
   ```
   
+Po wykonaniu powyższych czynności w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać IPython Notebook.
 
-Po wykonaniu powyższych czynności w przeglądarce pod adresem http://localhost:8888/ powinien odpowiadać ipython notebook.
 
 
-**Poprawki zauważonych błędów**
+### Poprawki zauważonych błędów
 
 Wszelkie erraty mile widziane, proszę zrobić fork + pull request.
