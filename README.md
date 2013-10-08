@@ -8,33 +8,33 @@ W celu uruchomienia ipython notebooka należy:
 1. Zainstaluj pełny moduł ipython:
 
   ```
-  $ pip install ipython[all]
+  pip install ipython[all]
   ```
 
 2. Pobierz źródła:
 
   ```
-  $ git clone https://github.com/agh-glk/python-lecture.git
+  git clone https://github.com/agh-glk/python-lecture.git
   ```
   
 3. Wejdź do katalogu ze wykładem:
 
   ```
-  $ cd python-lecture
+  cd python-lecture
   ```
 
 
 4. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu wykonaj:
 
   ```
-  $ git pull
+  git pull
   ```
   
     
 5. Uruchom notebook:
 
   ```
-  $ ipython notebook
+  ipython notebook
   ```
   
 
