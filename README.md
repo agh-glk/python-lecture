@@ -22,8 +22,16 @@ W celu uruchomienia ipython notebooka należy:
   ```
   $ cd python-lecture
   ```
+
+
+4. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu wykonaj:
+
+  ```
+  $ git pull
+  ```
+  
     
-4. Uruchom notebook:
+5. Uruchom notebook:
 
   ```
   $ ipython notebook
@@ -31,6 +39,7 @@ W celu uruchomienia ipython notebooka należy:
   
 
 Po wykonaniu powyższych czynności w przeglądarce pod adresem http://localhost:8888/ powinien odpowiadać ipython notebook.
+
 
 
 **Poprawki zauważonych błędów**
