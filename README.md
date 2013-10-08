@@ -26,8 +26,14 @@ W celu uruchomienia IPython Notebooka należy:
   ```
   $ cd python-lecture
   ```
-    
-4. Uruchom Notebook:
+
+4. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu wykonaj:
+
+  ```
+  $ git pull
+  ```
+
+5. Uruchom Notebook:
 
   ```
   $ ipython notebook
@@ -60,7 +66,13 @@ W celu uruchomienia IPython Notebooka:
   $ cd python-lecture
   ```
     
-5. Uruchom Notebook:
+5. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu wykonaj:
+
+  ```
+  $ git pull
+  ```
+
+6. Uruchom Notebook:
 
   ```
   $ ipython notebook
