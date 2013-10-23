@@ -9,7 +9,13 @@ Wykłady z Pythona na AGH w formacie IPython Notebook.
 
 W celu uruchomienia IPython Notebooka należy:
 
-1. Zainstaluj pełny moduł ipython:
+0. Zainstaluj dodatkowe pakiety systemowe wymagane przy instalacji modułu iPython:
+  
+  ```
+  $ sudo apt-get install libzmq-dev python-zmq python-dev
+  ```
+
+1. Zainstaluj pełny moduł iPython:
 
   ```
   $ pip install ipython[all]
