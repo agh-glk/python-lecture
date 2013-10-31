@@ -24,7 +24,7 @@ class FlattenCollectionTestCase(unittest.TestCase):
                          (1, u'5', 6, 6, 6, u'7', 3, 3, 3))
 
 
-class DlattenDictionaryTestCase(unittest.TestCase):
+class FlattenDictionaryTestCase(unittest.TestCase):
     def test_depth_1(self):
         self.assertEqual(flatten_dictionary({'a': 1, 'b': 2, 'c': 3}), {'a': 1, 'b': 2, 'c': 3})
 
@@ -38,8 +38,8 @@ class DlattenDictionaryTestCase(unittest.TestCase):
 
     def test_depth_2_no_crumbs(self):
         self.assertEqual(flatten_dictionary({'a': 1, 'b': {'d': 4, 'e': 5}, 'c': 3}, False),
-                         {'a': 1, 'd': 5, 'e': 5, 'c': 3})
+                         {'a': 1, 'd': 4, 'e': 5, 'c': 3})
 
     def test_depth_3_no_crumbs(self):
         self.assertEqual(flatten_dictionary({'a': 1, 'b': {'a': 1, 'd': 4, 'e': {'f': 6, 'd': 7}}, 'c': {'h': 8}}, False),
-                         {'a': [1, 1], 'd': [5, 7], 'f': 6, 'h': 8})
+                         {'a': [1, 1], 'd': [4, 7], 'f': 6, 'h': 8})
