@@ -90,4 +90,4 @@ Po wykonaniu powyższych czynności w przeglądarce pod adresem `http://localhos
 
 ### Poprawki zauważonych błędów
 
-Wszelkie erraty mile widziane, proszę zrobić fork + pull request.
+Wszelkie erraty i poprawki mile widziane, proszę zrobić fork + pull request.
