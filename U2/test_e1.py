@@ -43,3 +43,7 @@ class FlattenDictionaryTestCase(unittest.TestCase):
     def test_depth_3_no_crumbs(self):
         self.assertEqual(flatten_dictionary({'a': 1, 'b': {'a': 1, 'd': 4, 'e': {'f': 6, 'd': 7}}, 'c': {'h': 8}}, False),
                          {'a': [1, 1], 'd': [4, 7], 'f': 6, 'h': 8})
+
+if __name__ == "__main__":
+		unittest.main()
+	
