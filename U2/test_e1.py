@@ -30,11 +30,11 @@ class FlattenDictionaryTestCase(unittest.TestCase):
 
     def test_depth_2(self):
         self.assertEqual(flatten_dictionary({'a': 1, 'b': {'d': 4, 'e': 5}, 'c': 3}),
-                         {'a': 1, 'b_d': 5, 'b_e': 5, 'c': 3})
+                         {'a': 1, 'b_d': 4, 'b_e': 5, 'c': 3})
 
     def test_depth_3(self):
         self.assertEqual(flatten_dictionary({'a': 1, 'b': {'d': 4, 'e': {'f': 6, 'g': 7}}, 'c': {'h': 8}}),
-                         {'a': 1, 'b_d': 5, 'b_e_f': 6, 'b_e_g': 7, 'c_h': 8})
+                         {'a': 1, 'b_d': 4, 'b_e_f': 6, 'b_e_g': 7, 'c_h': 8})
 
     def test_depth_2_no_crumbs(self):
         self.assertEqual(flatten_dictionary({'a': 1, 'b': {'d': 4, 'e': 5}, 'c': 3}, False),
