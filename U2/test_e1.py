@@ -13,7 +13,7 @@ class FlattenCollectionTestCase(unittest.TestCase):
         self.assertEqual(flatten_collection([1, [u'5', u'6', u'7'], 3], list), [1, u'5', u'6', u'7', 3])
 
     def test_depth_2_tuple(self):
-        self.assertEqual(flatten_collection([1, [u'5', u'6', u'7'], 3], tuple), (1, u'5', u'6', u'7', 3))
+        self.assertEqual(flatten_collection([1, [u'5', u'666', u'7'], 3], tuple), (1, u'5', u'666', u'7', 3))
 
     def test_depth_3_list(self):
         self.assertEqual(flatten_collection([1, [u'5', (6, 6, 6), u'7'], [3, 3, 3]], list),
