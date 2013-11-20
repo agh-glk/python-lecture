@@ -1,9 +1,20 @@
 import unittest
-from u4_1 import check_date
+from u4_1 import check_date, find_in_xml
 
 
 class U4TestCase(unittest.TestCase):
-    # od 1981-04-15 do 1995-11-21
+
+    def parse_xml(self):
+        self.assertEqual(list(find_in_xml('''
+            <one this="1" is="11" foo="111">
+                <two this="2" is="22" bar="222" src="2222">
+                    <three this="3" is="33" baz="333" />
+                </two>
+            </one>
+            ''')),
+            [('foo', '111'), ('bar','222'), ('baz', '333')]
+        )
+
     def test_date_before(self):
         self.assertFalse(check_date('1981-04-14'))
         self.assertFalse(check_date('1980-04-30'))
