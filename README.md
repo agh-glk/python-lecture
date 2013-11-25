@@ -27,7 +27,7 @@ W celu uruchomienia IPython Notebooka należy:
   $ git clone https://github.com/agh-glk/python-lecture.git
   ```
   
-3. Wejdź do katalogu ze wykładem:
+3. Wejdź do katalogu z wykładem:
 
   ```
   $ cd python-lecture
@@ -66,7 +66,7 @@ W celu uruchomienia IPython Notebooka:
   ```
   $ git clone https://github.com/agh-glk/python-lecture.git
   ```
-4. Wejdź do katalogu ze wykładem:
+4. Wejdź do katalogu z wykładem:
 
   ```
   $ cd python-lecture
@@ -82,6 +82,12 @@ W celu uruchomienia IPython Notebooka:
 
   ```
   $ ipython notebook
+  ```
+
+Jeśli powyższa komenda nie działa, spróbuj
+
+  ```
+  $ ipython notebook nazwa_pliku.ipynb
   ```
   
 Po wykonaniu powyższych czynności w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać IPython Notebook.
