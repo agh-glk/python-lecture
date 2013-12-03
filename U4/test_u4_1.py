@@ -4,7 +4,7 @@ from u4_1 import check_date, find_in_xml
 
 class U4TestCase(unittest.TestCase):
 
-    def parse_xml(self):
+    def test_parse_xml(self):
         self.assertEqual(list(find_in_xml('''
             <one this="1" is="11" foo="111">
                 <two this="2" is="22" bar="222" src="2222">
