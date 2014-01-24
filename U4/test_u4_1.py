@@ -9,10 +9,13 @@ class U4TestCase(unittest.TestCase):
             <one this="1" is="11" foo="111">
                 <two this="2" is="22" bar="222" src="2222">
                     <three this="3" is="33" baz="333" />
+                    <four longlongname="hello world" p="xYzAbC...">
+                    	<five a="1234" b="15" src="4" c="42" />
+                    </four>
                 </two>
             </one>
             ''')),
-            [('foo', '111'), ('bar','222'), ('baz', '333')]
+            [('foo', '111'), ('bar','222'), ('baz', '333'), ('p', 'xYzAbC...'), ('c', '42')]
         )
 
     def test_date_before(self):
