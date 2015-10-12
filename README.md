@@ -3,6 +3,9 @@ python-lecture
 
 Wykłady z Pythona na AGH w formacie IPython Notebook.
 
+Ten wykład dotyczy Pythona w wersji 3.x.
+Jeśli jesteś zainteresowany wykładem dla Pythona 2.x, odwiedź gałąź python2x (https://github.com/agh-glk/python-lecture/tree/python2x)
+
 ### Jak używać?
 
 #### Na Linuksie
