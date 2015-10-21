@@ -8,20 +8,20 @@ Jeśli jesteś zainteresowany wykładem dla Pythona 2.x, odwiedź gałąź pytho
 
 ### Jak używać?
 
-#### Na Linuksie
+#### Na Linuksie (Ubuntu 14.04)
 
 W celu uruchomienia IPython Notebooka należy:
 
 0. Zainstaluj dodatkowe pakiety systemowe wymagane przy instalacji modułu iPython:
   
   ```
-  $ sudo apt-get install libzmq-dev python-zmq python-dev
+  $ sudo apt-get install git python3-pip
   ```
 
 1. Zainstaluj pełny moduł iPython:
 
   ```
-  $ pip install ipython[all]
+  $ sudo pip3 install jupyter
   ```
 
 2. Pobierz źródła:
