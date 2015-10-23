@@ -60,28 +60,34 @@ W celu uruchomienia IPython Notebooka:
 2. Zaktualizuj Anacondę oraz IPythona:
 
   ```
-  conda update conda
-  conda update ipython
+  $ conda update conda
+  $ conda update ipython
   ```
 
-3. Pobierz źródła poprzez polecenie w Git Bash (jeśli nie masz Gita, [zainstaluj go](http://git-scm.com/download/win)):
+3. Zainstaluj Jupytera:
+
+  ```
+  $ conda install jupyter
+  ```
+
+4. Pobierz źródła poprzez polecenie w Git Bash (jeśli nie masz Gita, [zainstaluj go](http://git-scm.com/download/win)):
 
   ```
   $ git clone https://github.com/agh-glk/python-lecture.git
   ```
-4. Wejdź do katalogu z wykładem:
+5. Wejdź do katalogu z wykładem:
 
   ```
   $ cd python-lecture
   ```
-    
-5. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu wykonaj:
+
+6. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu wykonaj:
 
   ```
   $ git pull
   ```
 
-6. Uruchom Notebook:
+7. Uruchom Notebook:
 
   ```
   $ ipython notebook
@@ -92,7 +98,7 @@ Jeśli powyższa komenda nie działa, spróbuj
   ```
   $ ipython notebook nazwa_pliku.ipynb
   ```
-  
+
 Po wykonaniu powyższych czynności w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać IPython Notebook.
 
 
