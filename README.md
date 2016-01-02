@@ -12,7 +12,7 @@ Jeśli jesteś zainteresowany wykładem dla Pythona 2.x, odwiedź gałąź pytho
 
 W celu uruchomienia IPython Notebooka należy:
 
-0. Zainstaluj dodatkowe pakiety systemowe wymagane przy instalacji modułu iPython:
+0. Zainstaluj dodatkowe pakiety systemowe, wymagane przy instalacji modułu iPython:
   
   ```
   $ sudo apt-get install git python3-pip
@@ -36,7 +36,7 @@ W celu uruchomienia IPython Notebooka należy:
   $ cd python-lecture
   ```
 
-4. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu wykonaj:
+4. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu, wykonaj:
 
   ```
   $ git pull
@@ -48,7 +48,7 @@ W celu uruchomienia IPython Notebooka należy:
   $ ipython notebook
   ```
   
-Po wykonaniu powyższych czynności w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać IPython Notebook.
+Po wykonaniu powyższych czynności, w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać IPython Notebook.
 
 
 #### Na Windowsie
@@ -81,7 +81,7 @@ W celu uruchomienia IPython Notebooka:
   $ cd python-lecture
   ```
 
-6. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu wykonaj:
+6. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu, wykonaj:
 
   ```
   $ git pull
@@ -99,7 +99,7 @@ Jeśli powyższa komenda nie działa, spróbuj
   $ ipython notebook nazwa_pliku.ipynb
   ```
 
-Po wykonaniu powyższych czynności w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać IPython Notebook.
+Po wykonaniu powyższych czynności, w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać IPython Notebook.
 
 
 
