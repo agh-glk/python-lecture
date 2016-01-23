@@ -101,6 +101,11 @@ Jeśli powyższa komenda nie działa, spróbuj
 
 Po wykonaniu powyższych czynności, w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać IPython Notebook.
 
+### RISE
+
+Po wykonaniu powyższych czynności można przeglądać zeszyty oraz interaktywnie wykonywać kod.<br>
+Instalacja wtyczki RISE umożliwia przeglądanie wykładów w postaci interaktywnego pokazu slajdów.<br>
+Opis instalacji tego dodatku znajduje się w pliku README_RISE.md<br>
 
 
 ### Poprawki zauważonych błędów
