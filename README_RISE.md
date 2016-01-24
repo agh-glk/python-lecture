@@ -34,7 +34,7 @@ cd RISE/
 python setup.py install
 ```
 
-Sprawdzenie instalacji:
+#### Sprawdzenie instalacji:
 
 Po otwarciu w jupyter nootebook dowolnego wykładu w menu toolbar powinna pojawić <br>
 się nowa ikona : "Enter/Exit Live Reveal Slideshow" (wygląda jak histogram)<br>
@@ -42,6 +42,32 @@ się nowa ikona : "Enter/Exit Live Reveal Slideshow" (wygląda jak histogram)<br
 cd <path_to_python-lecture>
 jupyter notebook LX.ipynb
 ```
+
+##### !!!
+   Aby osiagnac najlepszy efekt zaleca sie wykonanie instrukcji<br>
+   zawartej w dziale <b>WAŻNE</b>
+
+# Windows
+
+1. Pobierz potrzebne pliki z repozytorium https://github.com/damianavila/RISE.git<br>
+   ```
+   cd
+   git clone https://github.com/damianavila/RISE.git
+   ```
+   (jeżeli nie masz Gita - zainstaluj go)<br>
+   
+2. W tym przypadku nie jest konieczne ustawianie żadnych zmiennych,<br>
+   należy przejć do folderu RISE i rozpoczć instalacje:<br>
+   ```
+   cd <path_to_RISE>
+   python setup.py install
+   ```
+   
+3. Instalacja powinna zakończyć sie bez żadnych bledów<br>
+   Aby zweryfikować, sprawdź czy możesz wlaczyc pokaz slajdów<br>
+   tak jak opisano w <b>Sprawdzenie instalacji</b> w dziale powswieconym<br>
+   instalacji na UNIX.<br><br>
+
 
 ## WAŻNE
 
