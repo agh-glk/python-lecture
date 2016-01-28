@@ -42,7 +42,6 @@ jupyter notebook LX.ipynb
 
 1. Pobierz potrzebne pliki z repozytorium https://github.com/damianavila/RISE.git<br>
    ```
-   cd
    git clone https://github.com/damianavila/RISE.git
    ```
    (jeżeli nie masz Gita - zainstaluj go)<br>
