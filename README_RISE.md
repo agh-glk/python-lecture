@@ -60,22 +60,21 @@ jupyter notebook LX.ipynb
 
 
 ## WAŻNE
-#### Jak tylko znajde dobry sposob od razu zamieszcze rozwiazanie w tym miejscu
 
-Aby uzyskać najlepszy efekt, należy zmienić domyślny rozmiar czcionki<br>
-(inaczej niektóre slajdy nie mieszczą się na ekranie)
+Aby slajdy mieściły się w pełni na ekranie, konieczna jest modyfikacja<br>
+parametru odpowiadającego za ich powiększenie (domyślnie równa 160%).<br>
+<br>
+Parametr jest ustawiony w pliku <br>
+`<path_to_application>/jupyter/nbextensions/livereveal/main.css`<br>
+gdzie `<path_to_application>` to miejsce w którym przechowywane są dane o aplikacjach<br>
+(w to miejsce były kopiowane pliki po uruchomieniu skryptu `setup.py`)<br>
+na przykład może to być<br>
+`~/.local/share/` w przypadku systemu UNIX czy<br>
+`znalesc dla Windows` w przypadku systemu Windows<br>
 
+Modyfikację należy wprowadzić w linii 67, ustawiając parametr:<br>
+`font-size: 100%;`
 
-Żeby to zrobić, należy zmodyfikować następujący plik <br>
-(Szablon używany w tych wykładach to 'simple')<br>
-`<path_to_RISE>/livereveal/reveal.js/css/theme/simple.css`<br><br>
-
-
-W linii 19. parametr `font-size` powinien przyjmować wartość 16px:<br>
-`font-size: 16px;`
-
-Jeżeli w użyciu byłby inny szablon, należy znaleść go w folderze /theme<br>
-i odpowiednio zmodyfikować wartość `font-size`
 
 Po wykonaniu powyższych czynności można cieszyć się interaktywnym pokazem slajdów.<br>
 
