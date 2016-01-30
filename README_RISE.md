@@ -70,7 +70,15 @@ gdzie `<path_to_application>` to miejsce w którym przechowywane są dane o apli
 (w to miejsce były kopiowane pliki po uruchomieniu skryptu `setup.py`)<br>
 na przykład może to być<br>
 `~/.local/share/` w przypadku systemu UNIX czy<br>
-`znalesc dla Windows` w przypadku systemu Windows<br>
+`C:\Users\<USERNAME>\AppData\Roaming` w przypadku systemu Windows<br>
+<br>
+<br>
+Jeżeli masz problemy ze znalezieniem wlasciwej scieżki, zmodyfikuj dowolny szablon<br>
+z `/RISE` (na przyklad plik `/RISE/livereveal/reveal.js/css/theme/simple.css`)<br>
+dodajac jakis komentarz który nie zmieni jego dzialania. Nastepnie uruchom ponownie<br>
+skrypt `setup.py`. W konsoli powinny pojawić sie scieżki: <br>
+1. Scieżka do /RISE<br>
+2. Szukana sciezka (do niej kopiowany jest nowy plik simple.css)<br>
 
 Modyfikację należy wprowadzić w linii 67, ustawiając parametr:<br>
 `font-size: 100%;`
