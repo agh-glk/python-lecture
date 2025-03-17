@@ -1,24 +1,27 @@
 python-lecture
 ==============
 
-Wykłady z Pythona na AGH w formacie IPython Notebook.
+Wykłady z Pythona na AGH w formacie Jupyter Notebook.
 
 Ten wykład dotyczy Pythona w wersji 3.x.
-Jeśli jesteś zainteresowany wykładem dla Pythona 2.x, odwiedź gałąź python2x (https://github.com/agh-glk/python-lecture/tree/python2x)
+
+Gałąź python2x (https://github.com/agh-glk/python-lecture/tree/python2x) dotyczy... Pythona 2.x, ale nie jest aktualizowana jeszcze dłużej niż sam Python 2. 
 
 ### Jak używać?
 
-#### Na Linuksie (Ubuntu 14.04)
+#### Na Linuksie (Debian i podobne)
 
-W celu uruchomienia IPython Notebooka należy:
+https://jupyter.org/install
 
-0. Zainstaluj dodatkowe pakiety systemowe, wymagane przy instalacji modułu iPython:
+W celu uruchomienia Jupyter Notebooka (dawniej IPython Notebook) należy:
+
+0. Zainstaluj dodatkowe pakiety systemowe (jeśli jeszcze ich nie masz):
   
   ```
   $ sudo apt-get install git python3-pip
   ```
 
-1. Zainstaluj pełny moduł iPython:
+1. Zainstaluj pełny moduł Jupyter:
 
   ```
   $ sudo pip3 install jupyter
@@ -45,64 +48,65 @@ W celu uruchomienia IPython Notebooka należy:
 5. Uruchom Notebook:
 
   ```
-  $ ipython notebook
+  $ jupyter notebook
   ```
   
-Po wykonaniu powyższych czynności, w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać IPython Notebook.
+  albo Jupyter Lab:
+  
+  ```
+  $ jupyter lab
+  ```
+  
+  
+Po wykonaniu powyższych czynności, w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać Jupyter Notebook/Lab.
 
 
 #### Na Windowsie
 
-W celu uruchomienia IPython Notebooka:
+W celu uruchomienia Jupyter Notebooka:
 
 1. Zainstaluj Anacondę: [strona pobierania](http://continuum.io/downloads).
 
-2. Zaktualizuj Anacondę oraz IPythona:
+2. Zaktualizuj Anacondę oraz Jupytera:
 
   ```
   $ conda update conda
-  $ conda update ipython
+  $ conda update jupyter
   ```
 
-3. Zainstaluj Jupytera:
-
-  ```
-  $ conda install jupyter
-  ```
-
-4. Pobierz źródła poprzez polecenie w Git Bash (jeśli nie masz Gita, [zainstaluj go](http://git-scm.com/download/win)):
+3. Pobierz źródła poprzez polecenie w Git Bash (jeśli nie masz Gita, [zainstaluj go](http://git-scm.com/download/win)):
 
   ```
   $ git clone https://github.com/agh-glk/python-lecture.git
   ```
-5. Wejdź do katalogu z wykładem:
+4. Wejdź do katalogu z wykładem:
 
   ```
   $ cd python-lecture
   ```
 
-6. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu, wykonaj:
+5. (Opcjonalnie) Jeśli chcesz uaktualnić źródła wykładu, wykonaj:
 
   ```
   $ git pull
   ```
 
-7. Uruchom Notebook:
+6. Uruchom Notebook:
 
   ```
-  $ ipython notebook
+  $ jupyter notebook
   ```
 
 Jeśli powyższa komenda nie działa, spróbuj
 
   ```
-  $ ipython notebook nazwa_pliku.ipynb
+  $ jupyter notebook nazwa_pliku.ipynb
   ```
 
-Po wykonaniu powyższych czynności, w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać IPython Notebook.
+Po wykonaniu powyższych czynności, w przeglądarce pod adresem `http://localhost:8888/` powinien odpowiadać Jupyter Notebook.
 
 
 
 ### Poprawki zauważonych błędów
 
-Wszelkie erraty i poprawki mile widziane, proszę zrobić fork + pull request. 
+Wszelkie erraty i poprawki mile widziane, proszę zrobić fork + pull request. Albo po prostu wysłać maila. 
